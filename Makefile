@@ -23,7 +23,7 @@ all:
 	$(CPP) -o bin/orgp $(CPP_FLAGS) $(ORGP_SRC)
 
 install:
-	install bin/orgp /usr/local/bin/
+	install bin/orgp ${HOME}/.local/bin/
 
 uninstall:
 	rm /usr/local/bin/orgp
